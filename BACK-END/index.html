@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Trilha Back-end</title>
+</head>
+<body>
+
+    <video autoplay muted loop class="video-bg" id="meuVideo">
+        <source src="../IMG/VIDEO - BACKGROUND - FRONT.mov" type="video/mp4">
+        Seu navegador não suporta vídeos em HTML5.
+    </video>
+
+    <div class="fundobranco">
+        <a href="/HOME/index.html">
+            <main class="logo">
+                <img class="img-logo" src="../IMG/TRILHA TEC - LOGO.png" alt="">
+                <h1>Trilha Dev</h1>
+            </main>
+        </a>
+
+        <section class="conteudo">
+            <h1 class="conteudo-titulo">Bem-vindo ao Trilha Back-end!</h1>
+            <p class="conteudo-subtitulo">
+                O back-end é a parte do desenvolvimento web responsável por garantir que os sistemas funcionem corretamente “por trás das câmeras”. É o espaço onde dados, regras de negócio e integrações se encontram, criando aplicações seguras, eficientes e escaláveis. Cada processamento, consulta ao banco de dados e comunicação com servidores é cuidadosamente planejado para que o usuário final tenha uma experiência confiável e contínua, tornando a operação de sites e aplicativos rápida, estável e consistente.
+            </p>
+        </section>
+
+        <section class="conteudo-cards">
+            <div class="botoes">
+
+                <div class="menu-suspenso">
+                    <button class="botao-menu">
+                        <span>Fundamentos e Preparação</span>
+                        <span class="seta">&#9660;</span>
+                    </button>
+                    <ul class="lista-itens">
+                        <li>Revisão de lógica de programação</li>
+                        <li>Entender cliente x servidor</li>
+                        <li>Protocolos básicos da web</li>
+                        <li>JSON e XML</li>
+                        <li>Estrutura de URLs e parâmetros</li>
+                    </ul>
+                </div>
+
+                <div class="menu-suspenso">
+                    <button class="botao-menu">
+                        <span>Linguagens Back-end</span>
+                        <span class="seta">&#9660;</span>
+                    </button>
+                    <ul class="lista-itens">
+                        <li>Sintaxe básica da linguagem</li>
+                        <li>Funções e módulos</li>
+                        <li>Estruturas de dados</li>
+                        <li>Manipulação de arquivos</li>
+                        <li>Tratamento de erros</li>
+                    </ul>
+                </div>
+
+                <div class="menu-suspenso">
+                    <button class="botao-menu">
+                        <span>Servidores e APIs</span>
+                        <span class="seta">&#9660;</span>
+                    </button>
+                    <ul class="lista-itens">
+                        <li>O que é uma API e como funciona</li>
+                        <li>Introdução a Node.js</li>
+                        <li>Criar servidor HTTP simples</li>
+                        <li>Frameworks populares</li>
+                        <li>Rotas (GET, POST, PUT, DELETE)</li>
+                        <li>Query params e body params</li>
+                        <li>Middleware</li>
+                        <li>Boas práticas de organização de código</li>
+                    </ul>
+                </div>
+
+                <div class="menu-suspenso">
+                    <button class="botao-menu">
+                        <span>Banco de dados</span>
+                        <span class="seta">&#9660;</span>
+                    </button>
+                    <ul class="lista-itens">
+                        <li>Diferença entre SQL e NoSQL</li>
+                        <li>Conexão do servidor backend com banco de dados</li>
+                        <li>SQL (relacional)</li>
+                        <li>NoSQL (não-relacional)</li>
+                        <li>Conceitos: tabelas, linhas, colunas</li>
+                        <li>Estrutura de documentos</li>
+                        <li>ORM/ODM</li>
+                        <li>CREATE, SELECT, UPDATE, DELETE</li>
+                        <li>CRUD básico</li>
+                        <li>JOINs, índices, chaves primárias e estrangeiras</li>
+                    </ul>
+                </div>
+
+                <div class="menu-suspenso">
+                    <button class="botao-menu">
+                        <span>Autenticação e Segurança</span>
+                        <span class="seta">&#9660;</span>
+                    </button>
+                    <ul class="lista-itens">
+                        <li>Autenticação básica</li>
+                        <li>Hash de senha (bcrypt)</li>
+                        <li>Sessões e tokens (JWT)</li>
+                        <li>Middleware de autenticação</li>
+                        <li>CORS (Cross-Origin Resource Sharing)</li>
+                        <li>Noções de segurança: SQL Injection, XSS, CSRF</li>
+                    </ul>
+                </div>
+
+                <div class="menu-suspenso">
+                    <button class="botao-menu">
+                        <span>Testes e Boas Práticas</span>
+                        <span class="seta">&#9660;</span>
+                    </button>
+                    <ul class="lista-itens">
+                        <li>Testes de rotas</li>
+                        <li>Testes unitários</li>
+                        <li>Estrutura de pastas organizada (MVC ou Clean Architecture básica)</li>
+                        <li>Versionamento de código (Git/GitHub)</li>
+                    </ul>
+                </div>
+
+                <div class="menu-suspenso">
+                    <button class="botao-menu">
+                        <span>Projetos</span>
+                        <span class="seta">&#9660;</span>
+                    </button>
+                    <ul class="lista-itens">
+                        <li>Criar uma API de cadastro de usuários (CRUD)</li>
+                        <li>Criar um sistema de autenticação com login/logout</li>
+                        <li>API de posts e comentários (mini-fórum)</li>
+                        <li>API de tarefas (To-Do List com banco de dados)</li>
+                        <li>Consumir a API criada no frontend (integração com HTML/JS)</li>
+                    </ul>
+                </div>
+
+            </div>
+        </section>
+
+        <div class="barra-progresso-container">
+            <div class="barra-progresso" id="barra-progresso"></div>
+        </div>
+
+        <section class="comentarios">
+            <h2>Deixe seu comentário:</h2>
+            <textarea id="campo-comentario" rows="4" cols="50" placeholder="Escreva seu comentário aqui..."></textarea>
+            <br>
+            <button id="botao-comentario">Enviar</button>
+
+            <div id="lista-comentarios">
+                <!-- Comentários aparecerão aqui -->
+            </div>
+        </section>
+
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

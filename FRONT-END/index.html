@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    
+    <title>Trilha Front-end</title>
+</head>
+<body>
+
+    <video autoplay muted loop class="video-bg" id="meuVideo">
+        <source src="../IMG/VIDEO - BACKGROUND - FRONT.mov" type="video/mp4">
+        Seu navegador não suporta vídeos em HTML5.
+    </video>
+
+    <div class="fundobranco">
+        <a href="/HOME/index.html">
+            <main class="logo">
+                <img class="img-logo" src="../IMG/TRILHA TEC - LOGO.png" alt="">
+                <h1>Trilha Dev</h1>
+            </main>
+        </a>
+
+        <section class="conteudo">
+            <h1 class="conteudo-titulo">Bem-vindo ao Trilha Front-end!</h1>
+            <p class="conteudo-subtitulo">
+                O front-end é a parte do desenvolvimento web que transforma ideias em experiências visuais e interativas. É o espaço onde design, funcionalidade e experiência do usuário se encontram, criando interfaces atraentes, responsivas e intuitivas. Cada clique, animação e detalhe visual é cuidadosamente pensado para garantir que o usuário navegue de forma fluida e agradável, tornando a interação com sites e aplicativos algo simples, envolvente e eficiente.
+            </p>
+        </section>
+
+        <section class="conteudo-cards">
+            <div class="botoes">  
+
+                <div class="menu-suspenso">
+                    <button class="botao-menu">
+                        <span>HTML - HyperText Markup Language</span>
+                        <span class="seta">&#9660;</span>
+                    </button>
+                    <ul class="lista-itens">
+                        <li>Introdução ao HTML</li>
+                        <li>Estrutura básica de uma página</li>
+                        <li>Tags de texto</li>
+                        <li>Listas</li>
+                        <li>Links</li>
+                        <li>Imagens</li>
+                        <li>Formatações</li>
+                        <li>Tabelas</li>
+                        <li>Formulários</li>
+                        <li>Semântica no HTML5</li>
+                        <li>Acessibilidade básica</li>
+                    </ul>
+                </div>
+
+                <div class="menu-suspenso">
+                    <button class="botao-menu">
+                        <span>CSS - Cascading Style Sheets</span>
+                        <span class="seta">&#9660;</span>
+                    </button>
+                    <ul class="lista-itens">
+                        <li>Introdução ao CSS</li>
+                        <li>Seletores básicos</li>
+                        <li>Propriedades de texto</li>
+                        <li>Cores e backgrounds</li>
+                        <li>Box Model</li>
+                        <li>Display</li>
+                        <li>Posicionamento</li>
+                        <li>Flexbox</li>
+                        <li>Grid Layout</li>
+                        <li>Pseudo-classes</li>
+                        <li>Transições e animações simples</li>
+                        <li>Responsividade</li>
+                    </ul>
+                </div>
+
+                <div class="menu-suspenso">
+                    <button class="botao-menu">
+                        <span>JS - Javascript</span>
+                        <span class="seta">&#9660;</span>
+                    </button>
+                    <ul class="lista-itens">
+                        <li>Introdução ao JavaScript</li>
+                        <li>Variáveis</li>
+                        <li>Tipos de dados</li>
+                        <li>Operadores Matemáticos</li>
+                        <li>Estruturas de controle</li>
+                        <li>Laços de repetição</li>
+                        <li>Funções</li>
+                        <li>Eventos</li>
+                        <li>Arrays e métodos</li>
+                        <li>Objetos</li>
+                        <li>JSON</li>
+                        <li>Introdução a ES6</li>
+                    </ul>
+                </div>
+
+                <div class="menu-suspenso">
+                    <button class="botao-menu">
+                        <span>Projetos</span>
+                        <span class="seta">&#9660;</span>
+                    </button>
+                    <ul class="lista-itens">
+                        <li>Criar uma página pessoal só com HTML</li>
+                        <li>Aplicar CSS para estilizar</li>
+                        <li>Criar um formulário de cadastro estilizado</li>
+                        <li>Criar um mini portfólio com Flexbox/Grid</li>
+                        <li>Fazer uma lista de tarefas (To-Do List) com JavaScript</li>
+                        <li>Criar um contador de cliques com JS</li>
+                        <li>Desenvolver uma landing page responsiva</li>
+                    </ul>
+                </div>
+
+            </div>
+        </section>
+<div class="barra-progresso-container">
+    <div class="barra-progresso" id="barra-progresso"></div>
+</div>
+
+        <section class="comentarios">
+            <h2>Deixe seu comentário:</h2>
+            <textarea id="campo-comentario" rows="4" cols="50" placeholder="Escreva seu comentário aqui..."></textarea>
+            <br>
+            <button id="botao-comentario">Enviar</button>
+
+            <div id="lista-comentarios">
+                <!-- Comentários aparecerão aqui -->
+            </div>
+        </section>
+
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
